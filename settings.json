@@ -143,7 +143,6 @@
 			],
 			"commands": [
 				"lazygit.openLazygit",
-				"workbench.action.toggleMaximizedPanel"
 			]
 		}
 	],
