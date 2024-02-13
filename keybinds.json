@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaults
+[
+	// TERMINAL
+	{
+		"key": "ctrl+shift+l",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+h",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.togglePanel",
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "workbench.action.terminal.new",
+		"when": "terminalFocus"
+	},
+	// FILE TREE
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.toggleSidebarVisibility",
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.files.action.focusFilesExplorer",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.focusFirstEditorGroup",
+		"when": "!editorTextFocus"
+	},
+	{
+		"key": "n",
+		"when": "filesExplorerFocus && !inputFocus",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "r",
+		"when": "filesExplorerFocus && !inputFocus",
+		"command": "renameFile"
+	},
+	{
+		"key": "d",
+		"when": "filesExplorerFocus && !inputFocus",
+		"command": "deleteFile"
+	},
+]

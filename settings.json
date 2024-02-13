@@ -1,0 +1,151 @@
+{
+	"vim.leader": " ",
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"leader",
+				"a"
+			],
+			"commands": [
+				"editor.action.quickFix"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"b",
+				"c"
+			],
+			"commands": [
+				":bd"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"b",
+				"a"
+			],
+			"commands": [
+				"workbench.action.closeOtherEditors"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"b",
+				"l"
+			],
+			"commands": [
+				"workbench.action.closeEditorsToTheRight"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"b",
+				"h"
+			],
+			"commands": [
+				"workbench.action.closeEditorsToTheLeft"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"b",
+				"n"
+			],
+			"commands": [
+				":bn"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"b",
+				"b"
+			],
+			"commands": [
+				":bp"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"h"
+			],
+			"commands": [
+				"workbench.action.focusLeftGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"j"
+			],
+			"commands": [
+				"workbench.action.focusBelowGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"k"
+			],
+			"commands": [
+				"workbench.action.focusAboveGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"l"
+			],
+			"commands": [
+				"workbench.action.focusRightGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"w"
+			],
+			"commands": [
+				":w!"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"l",
+				"j"
+			],
+			"commands": [
+				"editor.action.marker.prev"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"l",
+				"k"
+			],
+			"commands": [
+				"editor.action.marker.next"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"g",
+				"g"
+			],
+			"commands": [
+				"lazygit.openLazygit",
+				"workbench.action.toggleMaximizedPanel"
+			]
+		}
+	],
+	"vim.visualModeKeyBindings": []
+}
